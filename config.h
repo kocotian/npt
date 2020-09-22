@@ -1,7 +1,24 @@
-/* npt working directory */
-std::string npt_dir = "/etc/npt.d/";
+/*
+ * NPT is simple and powerful tool to get and management nar packages.
+ * Copyright (C) 2020 Kocotian
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <https://www.gnu.org/licenses/>.
+ */
 
-namespace col
+std::string npt_dir = "/etc/npt.d/"; /* npt working directory */
+
+namespace col /* colors */
 {
 	std::string w 	= "\033[1;39m";
 	std::string r 	= "\033[1;31m";
